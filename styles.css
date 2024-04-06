@@ -1,0 +1,88 @@
+/* Estilo para o corpo da página */
+/* Definição de cores */
+:root {
+    --cor-primaria: #ff6347; /* Vermelho Coral */
+    --cor-secundaria: #ffd700; /* Amarelo Dourado */
+    --cor-texto: #333; /* Cinza Escuro */
+  }
+  
+  /* Estilo global */
+  body {
+
+    background-image: linear-gradient(to right,#FAF4E3, #f2d687,#d9b2a9,#f2dbd5,#F4eeed);
+    
+    font-family: Arial, sans-serif; 
+    color: #333; /* Cinza Escuro */
+  }
+  
+  /* Estilo do degradê */
+  .gradiente {
+    background: linear-gradient(135deg, #ff6347, #ffd700); /* Degradê de Vermelho Coral para Amarelo Dourado */
+    height: 100vh; /* Altura igual à altura da viewport */
+  }
+  
+  /* Estilo do conteúdo */
+  .content {
+    padding: 20px;
+  
+        
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    background-color: var(--cor-primaria);
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* Branco */
+  }
+  
+  /* Estilo do menu */
+  nav {
+    background-color: var(--cor-secundaria);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color:maroon; /* Branco */
+  }
+  
+  /* Estilo do conteúdo */
+  .content {
+    padding: 20px;
+  }
+  
+  /* Estilo do rodapé */
+  footer {
+    background-color: var(--cor-primaria);
+    padding: 10px;
+    text-align: center;
+    color: #edeaea; /* Branco */
+  }
+
+
+h1 {
+    color: maroon; background-color:#ffd700;
+}
+h2 {
+    color: maroon; background-color:#ffd700;
+}
+p  {
+    text-align: justify; color: maroon;
+}
+
+li{
+  color: maroon; background-color:#ffd700;
+
+}
